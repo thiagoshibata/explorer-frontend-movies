@@ -37,6 +37,7 @@ export const Search = styled.input`
   }
 `
 export const Profile = styled.div`
+  min-width: 208px;
   display: flex;
   align-items: center;
   gap: 8px;
