@@ -11,6 +11,8 @@ export const Container = styled.header`
   justify-content: space-between;
   align-items: center;
   gap: 64px;
+
+  border-bottom: 1px solid #3e3b47;
 `
 export const Logo = styled.div`
   font-size: 24px;
@@ -21,6 +23,10 @@ export const Search = styled.input`
   width: 100%;
   height: 56px;
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+
+  font-size: 14px;
+  color: ${({ theme }) => theme.COLORS.WHITE};
+
   border: none;
   border-radius: 10px;
   padding: 19px 24px;
@@ -32,10 +38,9 @@ export const Search = styled.input`
 `
 export const Profile = styled.div`
   display: flex;
-  flex-direction: row;
   align-items: center;
-  cursor: pointer;
   gap: 8px;
+  cursor: pointer;
 
   > img {
     width: 64px;
@@ -45,10 +50,11 @@ export const Profile = styled.div`
   > div {
     display: flex;
     flex-direction: column;
-    align-items: end;
+    text-align: right;
 
     span {
       font-size: 14px;
+      font-weight: 700;
       color: ${({ theme }) => theme.COLORS.GRAY_800};
     }
     strong {
