@@ -1,5 +1,6 @@
 import { Container, Form, Background } from "./styles"
-import {FiUser ,FiMail, FiLock, FiArrowLeft } from "react-icons/fi"
+import { FiUser, FiMail, FiLock, FiArrowLeft } from "react-icons/fi"
+import { Link } from "react-router-dom"
 
 import { Button } from "../../components/Button"
 import { Input } from "../../components/Input"
@@ -15,10 +16,10 @@ export function SignUp() {
         <Input icon={FiMail} type="text" placeholder="E-mail" />
         <Input icon={FiLock} type="password" placeholder="Senha" />
         <Button title="Cadastrar" />
-        <a href="/">
+        <Link to="/">
           <FiArrowLeft />
           <span>Voltar para login</span>
-        </a>
+        </Link>
       </Form>
       <Background />
     </Container>
