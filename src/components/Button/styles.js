@@ -6,6 +6,8 @@ export const Container = styled.button`
   border: none;
   border-radius: 10px;
 
+  margin-top: 16px;
+
   cursor: pointer;
 
   background-color: ${({ theme, $del }) =>
