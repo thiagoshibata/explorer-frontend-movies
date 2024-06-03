@@ -1,12 +1,11 @@
 /* eslint-disable react/prop-types */
-import { FiArrowLeft } from 'react-icons/fi';
-import { Container } from "./styles";
+import { FiArrowLeft } from "react-icons/fi"
+import { Container } from "./styles"
 
-export function ButtonText({title}) {
-
+export function ButtonText({ title, ...rest }) {
   return (
-    <Container>
-      <FiArrowLeft/>
+    <Container {...rest}>
+      <FiArrowLeft />
       {title}
     </Container>
   )

@@ -11,7 +11,7 @@ export function Details() {
     <Container>
       <Header />
       <main>
-        <ButtonText title="Voltar" />
+        <ButtonText to="/" title="Voltar" />
         <Content>
           <header>
             <h1>Interestellar</h1>

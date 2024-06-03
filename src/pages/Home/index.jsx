@@ -11,7 +11,7 @@ export function Home() {
       <main>
         <header>
           <h1>Meus filmes</h1>
-          <NewMovie>
+          <NewMovie to="/new">
             <TfiPlus />
             Adicionar filme
           </NewMovie>

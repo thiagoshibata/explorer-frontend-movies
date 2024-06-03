@@ -28,7 +28,7 @@ export const Container = styled.div`
     background-color: black;
     border-radius: 8px;
   }
-  .buttons{
+  .buttons {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,6 +50,4 @@ export const Form = styled.form`
     font-weight: 400;
     color: ${({ theme }) => theme.COLORS.GRAY_700};
   }
-
-
 `
