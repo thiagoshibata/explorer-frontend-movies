@@ -1,9 +1,16 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
+  display: grid;
+  grid-template-rows: 116px auto;
+
+  grid-template-areas:
+    "header"
+    "content";
+
   > main {
     grid-area: content;
-    overflow-y: scroll;
+    overflow-y: auto;
     margin: 48px 0 12px;
     padding: 0 124px;
   }
