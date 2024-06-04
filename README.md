@@ -1,8 +1,18 @@
-# React + Vite
+# RocketMovies
+Este é um projeto para você acompanhar seus filmes preferidos, adicionar suas observações e ainda classifica-los com uma nota de 1 a 5.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3>Funcionalidades</h3>
 
-Currently, two official plugins are available:
+- Autenticação do usuário
+- Criar e editar os dados de usuário, sendo eles: Nome, E-mail e Senha.
+- Criar e excluir filmes
+- Adicionar marcadores aos filmes
+- Pesquisar os filmes por título
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h3>Tecnologias</h3>
+
+- Vite
+- React
+- React Dom: Rotas da aplição
+- Styled Components: Estilização dos componentes e páginas
+
