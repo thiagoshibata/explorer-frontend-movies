@@ -53,10 +53,15 @@ export const Profile = styled.div`
     flex-direction: column;
     text-align: right;
 
-    span {
+    button {
+      display: flex;
+      justify-content: right;
+      background: none;
+      border: none;
       font-size: 14px;
       font-weight: 700;
       color: ${({ theme }) => theme.COLORS.GRAY_800};
+      cursor: pointer;
     }
     strong {
       font-size: 18px;
