@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 import { Container } from "./styles"
 
-export function Button({ title, del }) {
+export function Button({ title, del, ...rest }) {
   return (
-    <Container type="button" $del={del}>
+    <Container type="button" $del={del} {...rest}>
       {title}
     </Container>
   )
